@@ -1,0 +1,415 @@
+@import "compass/css3";
+@import url(https://fonts.googleapis.com/css?family=Megrim);
+
+:root {
+    --backgorundcolor:black;
+    --blanco: white;
+    --negro: black;
+    --rojo: #CE0000;
+    --rosa: #C5004E;
+    --morado:#9B277A;
+    --azul:#324b77;
+    --mar:#2F4858;
+    --amarillo: rgb(210, 228, 4);
+
+    
+    /*BOTON*/
+    --bg: var(--amarillo);
+    --color: var(--rosa);
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (max-width: 1000px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    footer{
+        align-items: center;
+        background-color: var(--backgorundcolor);
+        margin: 0px;
+        height: 100%;
+        width: 99.5%;
+    
+    }
+
+    .barra{
+        display: none;
+    }
+
+    img.pequeña{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+    }
+    img.mediana{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+    }
+    img.grande{
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+    }
+
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--negro);
+    align-items: center;
+    align-content: right;
+    z-index: 0;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin: 10px;
+    height: 95%;
+    width: 99.5%;
+    display: auto;
+}
+
+footer{
+    align-items: center;
+    background-color: var(--backgorundcolor);
+    margin: 0px;
+    height: 95%;
+    width: 99.5%;
+
+}
+
+body{
+    align-items: center;
+    background-color: var(--backgorundcolor);
+    margin: 0px;
+    height: 95%;
+    width: 99%;
+}
+
+p{
+    background-attachment: fixed;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+h3{
+    background-color: var(--morado);
+    color: var(--blanco);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+li{
+    
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+hr {
+    border: 0; 
+    height: 12px;
+    box-shadow: inset 0 12px 12px -12px var(--negro);
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, .has-accent-font-font-family strong {
+    font-weight: 900;
+    letter-spacing: .05em;
+    font-size: 40px;
+}
+
+img.pequeña{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+  }
+img.mediana{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+  }
+img.grande{
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+  }
+
+
+.visitas{
+    background-color: var(--negro);
+    color: var(--blanco);
+    border: var(--negro);
+    text-align: center;
+    align-items: flex;
+    text-justify: auto;
+    font-size: larger;
+}
+
+.barra{
+    background-color: var(--negro);
+    border:5px solid black;
+    bottom: fixed;
+    margin: fixed;
+    position: fixed;
+    padding-top:0px;
+    padding-right:0px;
+    padding-bottom:0px;
+    padding-left: 60px;
+    font-size: 25px;
+    line-height:50px;
+    text-align: center;
+}
+
+.container{
+    background-color: var(--rosa);
+    border:10px solid black;
+    display: auto;
+    align-self: start;
+    width: 99.5%;
+
+}
+.video{
+    margin-top: 10px;
+}
+.parrafo{
+    background-color: var(--blanco);
+    border-radius: 25%;
+    border:20px solid black;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo_pagina, .imagenHorario, .parrafoHorario {
+    margin: 0 auto;
+    align-items: center;
+}
+.horarios{
+    background-color: var(--negro);
+    height: max-content;
+    color: var(--blanco);
+    text-align: center;
+}
+
+/*Secciones*/
+
+.aniversario{
+    background-color: var(--amarillo);
+}
+
+.horror{
+    background-color: var(--rojo);
+}
+.cosplay{
+    background-color: var(--azul);
+}
+
+/*-----------------------------------*/
+
+.findepagina{
+    margin: fixed;
+    bottom: fixed;
+}
+
+.footer{
+    background-color: var(--azul);
+    max-width: 100%;
+    border:10px solid black;
+    margin: fixed;
+    bottom: fixed;
+    text-align: center;
+}
+
+.entradas{
+    background-color: var(--negro);
+    border:10px solid var(--rosa);
+    margin: fixed;
+    bottom: fixed;
+    text-align: center;
+}
+
+.logo__footer{
+    display: relative;
+    color: var(--negro);
+    margin-right: 10px;
+}
+.icono_redes{
+    display: inline-block;
+    font-size: 36px;
+    animation: float 2.5s ease-in-out infinite;
+}
+
+.bi-twitter{
+    align-items: center;
+    display: relative;
+    color: #1877f2;
+}
+
+.bi-github{
+    align-items: center;
+    color: var(--blanco);
+    animation-delay: 1s;
+}
+
+.bi-instagram{
+    align-items: center;
+    color: #e60073;
+    animation-delay: 1.5s;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+.titmov{
+    color: var(--blanco);
+    animation: float 2.5s ease-in-out infinite;
+   
+}
+
+.titulo_pagina{
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.imagenHorario{
+    
+    border: 5px solid var(--amarillo);
+    background-color: var(--negro);
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.gallery a {
+    margin-top: 50px;
+    flex-basis: calc(33.33% - 10px);
+    transform: rotate(-5deg);
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.float {
+    float: left;
+    margin: 10px;
+}
+
+/* Galeria de Aniversario */
+
+.gallery {
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Galeria de Horror */
+.invitados_horror
+{
+    margin-top: 20px;
+    display: auto;
+}
+/* Galeria de Cosplay */
+.invitados_cosplay{
+    margin-top: 20px;
+    display: auto;
+}
+
+.preguntas{
+    color: var(--blanco);
+    background-color: var(--negro);
+    border:5px solid var(--rojo);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+    margin-top: 50px;
+    border-radius: 25%;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+}
+
+.menu{
+    color: var(--blanco);
+}
