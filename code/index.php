@@ -15,6 +15,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -85,7 +86,7 @@
                     </div>
         </div>
 
-        <header class="header">
+        <header class="header" data-aos="fade-in">
                 <p class= "visitas">
                 <?php
                     require 'conexion.php';
@@ -97,7 +98,7 @@
             <div class = "container">
                 
                 <center>
-                    <div class="titulo_pagina">
+                    <div class="titulo_pagina" data-aos="fade-in">
                         <h2>
                             <strong>
                                 ¿DÓNDE Y CUÁNDO?
@@ -124,7 +125,7 @@
                 </center>
 
                 
-                    <div class = "aniversario" id="aniversario">
+                    <div class = "aniversario" id="aniversario" data-aos="flip-up">
                         <center>
                             <div class="titulo_pagina">
                                 <h2>
@@ -153,7 +154,7 @@
                         </center>
                     </div>
 
-                    <div class = "horror" id="horror">
+                    <div class = "horror" id="horror" data-aos="flip-up">
                         <center>
                             <div class="titulo_pagina">
                                 <h2>
@@ -183,7 +184,7 @@
                         </center>
                     </div>
 
-                    <div class = "cosplay" id = "cosplay">
+                    <div class = "cosplay" id = "cosplay" data-aos="flip-up">
                         <center>
                             <div class="titulo_pagina">
                                 <h2>
@@ -205,10 +206,10 @@
                         </center>
                     </div>
 
-                    <div class = "faqs" id="faqs">
+                    <div class = "faqs" id="faqs" data-aos="fade-in">
                         <center>
                             <div class="titulo_pagina">
-                                <h2>
+                                <h2 data-aos="flip-up">
                                     <strong <i class="fa fa-align-center" aria-hidden="true"></i>
                                         FAQS
                                     </strong>
@@ -216,14 +217,14 @@
                             </div>
 
                             <div class="preguntas">
-                                <h3><hr>¿QUÉ ES LA MOLE ®?</h3>
-                                <p>LA MOLE es la convención de comics, fantasía y cultura pop más grande de Latinoamérica.</p>
+                                <h3 data-aos="flip-down"><hr>¿QUÉ ES LA MOLE ®?</h3>
+                                <p data-aos="fade-in">LA MOLE es la convención de comics, fantasía y cultura pop más grande de Latinoamérica.</p>
 
-                                <h3><hr>¿CUÁNDO ES LA MOLE ®?</h3>
-                                <p>La próxima edición de La Mole se llevará a cabo los días 17, 18 y 19 de marzo de 2023.</p>
+                                <h3 data-aos="flip-down"><hr>¿CUÁNDO ES LA MOLE ®?</h3>
+                                <p data-aos="fade-in">La próxima edición de La Mole se llevará a cabo los días 17, 18 y 19 de marzo de 2023.</p>
 
-                                <h3><hr>¿CUÁL ES EL HORARIO DE LA MOLE ®?</h3>
-                                <p>
+                                <h3 data-aos="flip-down"><hr>¿CUÁL ES EL HORARIO DE LA MOLE ®?</h3>
+                                <p data-aos="fade-in">
                                     La Mole se llevará a cabo en los siguientes horarios.
 
                                     Viernes de 11:00 a 21:00 horas
@@ -233,68 +234,68 @@
                                     Domingo de 10:00 a 20:00 horas
                                 </p>
 
-                                <h3><hr>¿DÓNDE SE REALIZA LA MOLE ®?</h3>
-                                <p>En el World Trade Center de la Ciudad de México, ubicado en Filadelfia 40, Colonia Nápoles, Alcaldía Benito Juárez, C.P. 03810, Ciudad de México.</p>
+                                <h3 data-aos="flip-down"><hr>¿DÓNDE SE REALIZA LA MOLE ®?</h3>
+                                <p data-aos="fade-in">En el World Trade Center de la Ciudad de México, ubicado en Filadelfia 40, Colonia Nápoles, Alcaldía Benito Juárez, C.P. 03810, Ciudad de México.</p>
 
-                                <h3><hr>¿QUÉ HAGO PARA SER EXPOSITOR DE LA MOLE ®?</h3>
-                                <p>Escribe al correo electrónico ventas@lamole.com.mx para recibir informes sobre precios y disponibilidad de espacios.</p>
+                                <h3 data-aos="flip-down"><hr>¿QUÉ HAGO PARA SER EXPOSITOR DE LA MOLE ®?</h3>
+                                <p data-aos="fade-in">Escribe al correo electrónico ventas@lamole.com.mx para recibir informes sobre precios y disponibilidad de espacios.</p>
 
-                                <h3><hr>¿CUÁNTO CUESTA LA ENTRADA?</h3>
-                                <p>Próximamente se darán a conocer los precios.</p>
+                                <h3 data-aos="flip-down"><hr>¿CUÁNTO CUESTA LA ENTRADA?</h3>
+                                <p data-aos="fade-in">Próximamente se darán a conocer los precios.</p>
 
-                                <h3><hr>¿QUIÉNES NECESITAN COMPRAR BOLETO?</h3>
-                                <p>Todo el público asistente debe adquirir su entrada, excepto los niños menores de un metro de estatura, quienes entrarán gratis siempre y cuando sean acompañados por un adulto.</p>
+                                <h3 data-aos="flip-down"><hr>¿QUIÉNES NECESITAN COMPRAR BOLETO?</h3>
+                                <p data-aos="fade-in"> Todo el público asistente debe adquirir su entrada, excepto los niños menores de un metro de estatura, quienes entrarán gratis siempre y cuando sean acompañados por un adulto.</p>
+  
+                                <h3 data-aos="flip-down"><hr>¿QUÉ HACER SI ENCUENTRO O PIERDO ALGO?</h3>
+                                <p data-aos="fade-in"> Acude al módulo de registro, ubicado cerca de nuestras taquillas. LA MOLE® no se hace responsable de los objetos extraviados.</p>
  
-                                <h3><hr>¿QUÉ HACER SI ENCUENTRO O PIERDO ALGO?</h3>
-                                <p>Acude al módulo de registro, ubicado cerca de nuestras taquillas. LA MOLE® no se hace responsable de los objetos extraviados.</p>
-
-                                <h3><hr>¿QUÉ HACER SI ME SIENTO MAL/ ME HE LASTIMADO?</h3>
-                                <p>Durante la convención contaremos con servicio médico por parte del World Trade Center.</p>
-
-                                <h3><hr>¿QUÉ HACER SI SOY ACOSADO?</h3>
-                                <p>
+                                <h3 data-aos="flip-down"><hr>¿QUÉ HACER SI ME SIENTO MAL/ ME HE LASTIMADO?</h3>
+                                <p data-aos="fade-in"> Durante la convención contaremos con servicio médico por parte del World Trade Center.</p>
+ 
+                                <h3 data-aos="flip-down"><hr>¿QUÉ HACER SI SOY ACOSADO?</h3>
+                                <p data-aos="fade-in">
                                     LA MOLE® tiene una política de cero tolerancia con respecto a cualquier tipo de violencia, esto incluye: 
                                 </p>
-                                    <li>Acoso</li> 
-                                    <li>Intimidación</li>
-                                    <li>Toma de fotos o video sin consentimiento</li>
-                                    <li>Discriminación racial y de género</li> 
-                                    <li>Agresión física</li>
-                                <p>
+                                    <li data-aos="fade-in">Acoso</li> 
+                                    <li data-aos="fade-in">Intimidación</li>
+                                    <li data-aos="fade-in">Toma de fotos o video sin consentimiento</li>
+                                    <li data-aos="fade-in">Discriminación racial y de género</li> 
+                                    <li data-aos="fade-in">Agresión física</li>
+                                <p data-aos="fade-in">
                                     En caso de sufrir alguno de estos incidentes, recurre al crew de LA MOLE®. Esta política se aplica a todos los asistentes al evento: expositores, fans, moderadores, artistas invitados, artistas independientes, prensa, staff y seguridad. Consulta la política a detalle en este link.
                                 </p>
 
-                                <h3><hr>¿PUEDO REPARTIR PUBLICIDAD DE MI EVENTO/SITIO WEB/PROYECTO,ETC. DENTRO DE LA MOLE®?</h3>
-                                <p>Solamente los expositores pueden repartir publicidad de su marca dentro del espacio contratado. Cualquier expositor o persona que reparta publicidad sin permiso podrá ser expulsada de la convención, sin derecho a reembolso.</p>
+                                <h3 data-aos="flip-down"><hr>¿PUEDO REPARTIR PUBLICIDAD DE MI EVENTO/SITIO WEB/PROYECTO,ETC. DENTRO DE LA MOLE®?</h3>
+                                <p data-aos="fade-in">Solamente los expositores pueden repartir publicidad de su marca dentro del espacio contratado. Cualquier expositor o persona que reparta publicidad sin permiso podrá ser expulsada de la convención, sin derecho a reembolso.</p>
 
-                                <h3><hr>¿PUEDO TOMAR FOTOS? </h3>
-                                <p>Claro, mientras no violen nuestra política de cero acoso.</p>
+                                <h3 data-aos="flip-down"><hr>¿PUEDO TOMAR FOTOS? </h3>
+                                <p data-aos="fade-in">Claro, mientras no violen nuestra política de cero acoso.</p>
 
-                                <h3><hr>¿PUEDO LLEVAR MI CÁMARA? </h3>
-                                <p>Sin problema alguno.</p>
+                                <h3 data-aos="flip-down"><hr>¿PUEDO LLEVAR MI CÁMARA? </h3>
+                                <p data-aos="fade-in">Sin problema alguno.</p>
 
-                                <h3><hr>¿QUÉ DÍAS SE PRESENTAN INVITADOS?</h3>
-                                <p>La mayoría de nuestros invitados participan todos los días de la convención, a menos que se anuncie lo contrario.</p>
+                                <h3 data-aos="flip-down"><hr>¿QUÉ DÍAS SE PRESENTAN INVITADOS?</h3>
+                                <p data-aos="fade-in">La mayoría de nuestros invitados participan todos los días de la convención, a menos que se anuncie lo contrario.</p>
 
-                                <h3><hr>¿LOS ARTISTAS DAN AUTÓGRAFOS? </h3>
-                                <p>Todos nuestros invitados dan autógrafos, pero recuerda que los actores invitados establecen un costo por sus firmas y fotos. Los cosplayers invitados suelen brindar su firma o foto de manera gratuita, aunque en ocasiones pueden condicionarla a la compra de algún artículo de su mesa.</p>
+                                <h3 data-aos="flip-down"><hr>¿LOS ARTISTAS DAN AUTÓGRAFOS? </h3>
+                                <p data-aos="fade-in">Todos nuestros invitados dan autógrafos, pero recuerda que los actores invitados establecen un costo por sus firmas y fotos. Los cosplayers invitados suelen brindar su firma o foto de manera gratuita, aunque en ocasiones pueden condicionarla a la compra de algún artículo de su mesa.</p>
 
-                                <h3><hr>¿CÓMO FUNCIONA EL SISTEMA DE PULSERAS PARA FIRMAS?</h3>
-                                <p>
+                                <h3 data-aos="flip-down"><hr>¿CÓMO FUNCIONA EL SISTEMA DE PULSERAS PARA FIRMAS?</h3>
+                                <p data-aos="fade-in">
                                     El reparto de pulseras limitadas para firma de invitados importantes es una práctica común en las convenciones de coleccionables más importantes del mundo. Esto permite un mayor control del número de fans participantes, así como que los admiradores del artista disfruten de las actividades de la convención, en vez de permanecer formados por muchas horas en un mismo lugar. Las pulseras son canjeables por el autógrafo del artista.
 
                                     Usualmente estas pulseras se reparten en los primeros minutos de cada día, directamente en la mesa de los invitados señalados para esta dinámica. Tras la primera repartición, solemos entregar más pulseras en las siguientes horas, pero esto depende mucho de la velocidad con que el artista atienda a cada uno de sus fans. En promedio, la dinámica de pulseras permite que un invitado atienda a 300 fans diarios. Estas pulseras no se encuentran a la venta y no son transferibles.
                                 </p>
 
-                                <h3><hr>¿CÓMO OBTENGO LAS EXCLUSIVAS DEL EVENTO? </h3>
-                                <p>Cada marca definirá su dinámica, que será anunciada en nuestras redes sociales, recuerda respetarlas y tener mucha paciencia para poder obtener todo lo que quieras y necesites, miles de personas quieren los mismos coleccionables que tu y es probable que no siempre te toque la suerte de obtenerlos, aun así diviértete y ten una grata experiencia.</p>
+                                <h3 data-aos="flip-down"><hr>¿CÓMO OBTENGO LAS EXCLUSIVAS DEL EVENTO? </h3>
+                                <p data-aos="fade-in">Cada marca definirá su dinámica, que será anunciada en nuestras redes sociales, recuerda respetarlas y tener mucha paciencia para poder obtener todo lo que quieras y necesites, miles de personas quieren los mismos coleccionables que tu y es probable que no siempre te toque la suerte de obtenerlos, aun así diviértete y ten una grata experiencia.</p>
 
                             </div>
 
                         </center>
                     </div>
 
-                    <div class = "entradas" id="entradas">
+                    <div class = "entradas" id="entradas" data-aos="fade-in">
                         <div class="wrapper">
                             <a class="button" href="https://lamole-2023.boletia.com/">ENTRADAS</a>
                         </div>
@@ -309,10 +310,15 @@
                     </div>
             </div>
 
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+
         </body>
 
           
-            <footer class="footer" id="footer">
+            <footer class="footer" id="footer" data-aos="zoom-in-up">
                 <div class = "findepagina">
                     <h1 class ="titmov"><br></h1>
                     <h1 class ="titmov" href="#">LA MOLE &copy</h1>
