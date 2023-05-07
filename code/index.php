@@ -11,11 +11,12 @@
 
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
@@ -111,7 +112,7 @@
                     </div>
                     
                     <div class ="video">
-                        <iframe width="590" height="330" src="https://www.youtube.com/embed/O7w4-OhiFWs?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="800" height="500" src="https://www.youtube.com/embed/O7w4-OhiFWs?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
 
                     <div class="horarios">
@@ -119,7 +120,6 @@
                             <p class="titmov">Viernes de 11:00 a 21:00 horas</p> 
                             <p class="titmov">Sábado de 10:00 a 21:00 horas</p>
                             <p class="titmov">Domingo de 10:00 a 20:00 horas</p>
-                            <p></p>
                         </strong>
                     </div>
                 </center>
@@ -167,10 +167,10 @@
                             <div class="invitados_horror">
 
                                 <a>
-                                    <img class="titmov" loading="lazy" width="400" height="500" src="https://i0.wp.com/lamole.com.mx/wp-content/uploads/2022/10/Expositor-KaneHodder.png?fit=1200%2C1500&amp;ssl=1">
+                                    <img class="titmov" width="400" height="500" src="https://i0.wp.com/lamole.com.mx/wp-content/uploads/2022/10/Expositor-KaneHodder.png?fit=1200%2C1500&amp;ssl=1">
                                 </a>
                                 <a>
-                                    <img class="titmov" width="400" height="500" src="https://i0.wp.com/lamole.com.mx/wp-content/uploads/2022/10/Expositor-DannyTrejo.png?fit=1200%2C1500&amp;ssl=1" class="attachment-medium size-medium wp-post-image">
+                                    <img class="titmov" width="400" height="500" src="https://i0.wp.com/lamole.com.mx/wp-content/uploads/2022/10/Expositor-DannyTrejo.png?fit=1200%2C1500&amp;ssl=1">
                                 </a>
                                 <a>
                                     <img class="titmov" width="400" height="500" src="https://i0.wp.com/lamole.com.mx/wp-content/uploads/2022/10/Expositor-MarkPatton.png?fit=1200%2C1500&amp;ssl=1">
